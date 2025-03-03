@@ -1,0 +1,57 @@
+What is python ?
+    Python is a widely-used, general-purpose, high-level programming language. 
+
+Multi-Paradigm Support
+    Python supports multiple programming paradigms, making it highly flexible:
+        Procedural Programming like C
+        Object-Oriented Programming (OOP) like Java
+        Functional Programming like Lisp
+
+Portability
+    Python is platform-independent, which means it can run on multiple operating systems like Windows, Linux, and macOS. Python programs are first compiled into an intermediate bytecode, which is then executed by the Python interpreter, ensuring consistency across platforms.
+
+Dynamically Typed
+    Python is a dynamically typed language, meaning the type of a variable is determined at runtime. While this adds flexibility, it can also make Python slower compared to statically typed languages.
+
+Garbage Collection
+    Python includes built-in garbage collection, which automatically manages memory by deallocating unused objects. This feature simplifies the programmer's job and helps prevent memory leaks.
+
+---------------------------------------------------------------------------------
+
+Python Standards and Implementations
+
+Key Rules of Python Standard
+    Case Sensitivity: Variables and identifiers in Python are case-sensitive. For example, Variable and variable would be considered different.
+    Operators: Python uses specific operators for different operations. For instance, the * operator is used for multiplication.
+    Indentation: Python uses indentation to define blocks of code, unlike many other languages that use braces {}.
+
+-------------------------------------------------------------------------------
+How Python Programs Are Executed
+
+Writing Python Programs
+    When you write a Python program, you create a file with a .py extension. This file contains the source code of your program and can be created using any text editor, such as Notepad or VI Editor. Alternatively, you can use Integrated Development Environments (IDEs) like PyCharm, which offer additional tools to simplify coding.
+
+Execution Process in Python
+    Python uses a two-step process to execute programs, involving both compilation and interpretation:
+
+1. Compilation to Bytecode:
+    The .py file (your source code) is first compiled into an intermediate format called bytecode.
+    The resulting bytecode files have a .pyc extension.
+    This step is performed by the Python compiler.
+
+2. Interpretation of Bytecode:
+    The bytecode is executed line by line by the interpreter.
+    The interpreter translates the bytecode into machine-specific instructions, enabling execution on your computer.
+
+Portability in Python
+    Portability means that a Python program can run on various platforms (a combination of operating system and architecture) without modification. For example, Python programs can run on Windows, Linux, or macOS.
+
+1. Platform-Independent Bytecode:
+    Python first compiles the source code into platform-independent bytecode.
+    This bytecode can be distributed and executed on any machine with a Python Virtual Machine (PVM) installed.
+
+2. Python Virtual Machine (PVM):
+    The PVM interprets and executes the bytecode on the specific platform.
+    Each platform (e.g., Windows, Linux) has its version of the PVM to ensure compatibility.
+
+--------------------------------------------------------------------------------------------

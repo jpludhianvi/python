@@ -1,0 +1,32 @@
+Python Programming Terminology
+
+Keywords
+    Keywords are reserved words in Python used for specific purposes. They form the syntax of the language and cannot be used as identifiers (names for variables, functions, etc.). Examples of keywords include:
+        for and while for loops
+        true and false for boolean values
+
+Variables
+    Variables are names that reference a memory location where data is stored. They are user-defined and cannot be named using keywords. For example:
+        x = 5
+
+Functions
+    Functions are sequences of instructions that perform a specific task. They can take inputs, process them, and return outputs. For instance:
+    The print function displays output on the screen:
+        print("Hello world")
+    The input function takes user input:
+        x = input("enter a value")
+
+Classes and Objects
+    Classes are blueprints for creating objects. They encapsulate data for the object and methods to manipulate that data. For example, in a college management software:
+        A student class might have attributes like name and rollno, and methods like getMarks.
+        A teacher class might have attributes like name and subject, and methods like assignGrades. 
+
+    Objects are instances of classes.
+    In Python, everything is an object, including primitive data types like integers and strings.
+
+Modules and Packages
+    Modules are Python files that contain related code, such as functions and classes. They help in organizing and reusing code. For example:
+        import math
+        print(math.factorial(5))
+
+
