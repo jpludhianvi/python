@@ -1,0 +1,47 @@
+Variables   
+    variables are containers that store the data used in program. Python is dynamically types language so you dont need to explicitly provide the data type of a variable.
+
+-------------------------------------------------------------------------------
+Creating and using Variable
+    age = 38
+    name = "Ankit"
+    weight = 58.5
+
+    print(age)		# Output: 38
+    print(name)		# Output: Ankit
+    print(weight)	# Output: 58.5
+
+Using Variables in Computations
+    Variables can also be used in computations. For example:
+        price = 100
+        tax = 18
+        total_price = price + tax
+
+        print(total_price) 	# Output: 118
+
+-------------------------------------------------------------------------------
+How Variables Work Internally
+    When you assign a value to a variable, a memory location is created to store the value, and the variable becomes a reference (or label) to that memory location. For example:
+    x = 10
+    y = "geek"
+    z = 20
+    w = z
+
+    print(x, y, z, w)	# Output: 10 geek 20 20
+-------------------------------------------------------------------------------
+Dynamically Typed Nature of Python
+    In Python, variables do not have fixed types. You can assign different types of data to the same variable:    
+    x = 10
+    print(x)	# Output: 10
+
+    x = "Python"
+    print(x)	# Output: Python
+
+-------------------------------------------------------------------------------
+Boolean Variables
+    Variables can also store Boolean values (True or False):
+        is_valid = True
+        is_published = False
+
+        print(is_valid)			# Output: True
+        print(is_published)		# Output: False
