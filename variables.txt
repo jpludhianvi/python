@@ -72,7 +72,7 @@ ID() Function
     Consider the following example to understand the id() function:
         print(id(5))  # Unique identifier for the object with value 5
         a = 10
-        print(id(a))  # Unique identifier for the object with value 10
+        print(id(a))  # Unique identifier for the object with value 10 
         b = a
         print(id(b))  # Same identifier as a because both refer to the same object
 
